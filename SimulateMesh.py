@@ -9,9 +9,7 @@ CURRTIME = 0
 MAX_DIST = 10
 #Node schema:
 #0 xCoord,1 yCoord,2 Table(time,node,val),3 nodeName,4 TimeDict(node:time)
-nodes = [	
-			[0,0,"NODE_A"],	[0,10,"NODE_B"], [10,0,"NODE_C"]
-		]
+nodes = [[0,0,"NODE_A"],[0,10,"NODE_B"],[10,0,"NODE_C"]]
 
 
 def main():
